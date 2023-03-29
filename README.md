@@ -1,2 +1,2 @@
-# documentation
+# docs
 Template for Neon Framework
