@@ -1,0 +1,16 @@
+{
+    "database": {
+        "charset": "",
+        "driver": "",
+        "host": "",
+        "name": "",
+        "password": "",
+        "port": "",
+        "user": ""
+    },
+    "name": "readwrap",
+    "sessionKey": null,
+    "timezone": "",
+    "url": "readwrap",
+    "charset": "utf-8"
+}

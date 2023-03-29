@@ -1,0 +1,20 @@
+{
+    "name": "nuovatech/readwrap",
+    "description": "Template for webpage",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Nuovatech\\Template\\Readwrap\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Marinho"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nuovatech/neon": "dev-master"
+    }
+}

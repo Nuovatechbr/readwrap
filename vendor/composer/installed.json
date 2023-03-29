@@ -1,0 +1,51 @@
+{
+    "packages": [
+        {
+            "name": "nuovatech/neon",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nuovatechbr/neon.git",
+                "reference": "e23f13a79acbf266d6f307dc02fc8e1f0889d42d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nuovatechbr/neon/zipball/e23f13a79acbf266d6f307dc02fc8e1f0889d42d",
+                "reference": "e23f13a79acbf266d6f307dc02fc8e1f0889d42d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2023-02-07T20:35:10+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Nuovatech\\Neon\\": "core/",
+                    "Nuovatech\\Neon\\Sample\\": "app/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Eduardo Marinho",
+                    "email": "nuovatech@outlook.com"
+                }
+            ],
+            "description": "Framework PHP",
+            "support": {
+                "issues": "https://github.com/Nuovatechbr/neon/issues",
+                "source": "https://github.com/Nuovatechbr/neon/tree/master"
+            },
+            "install-path": "../nuovatech/neon"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

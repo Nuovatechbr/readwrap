@@ -1,0 +1,49 @@
+@media all {
+    .neon-card {
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(26, 54, 126, 0.125);
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+
+        &.card-shadow {
+            box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+        }
+
+        &.card-shadow-hover:hover {
+            box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1) !important;
+            transition: ease-in-out 0.2s;
+        }
+
+        // General
+        .neon-card-header,
+        .neon-card-body {
+            &.border-bottom {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        // Header
+        .neon-card-header {
+            align-items: center;
+            display: flex;
+
+            .neon-card-title {
+                color: rgba(13, 27, 62, 0.7);
+                font-size: 16px;
+                line-height: 20px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        // Body
+        .neon-card-body {
+        }
+
+        .neon-card-footer {
+        }
+    }
+}
